@@ -86,5 +86,6 @@ while(Q != Q_new):
     Q = Q_new
     Q_new,tag_dict,tag_dict2 = changeTagRound(tag_dict2,map_dict2,Q)
     member=com_member(tag_dict)
-    tag_dict2,map_dict2 = rebuildMap(tag_dict,map_dict) 
-
+    tag_dict2,map_dict2 = rebuildMap(tag_dict,map_dict)
+print(member)
+print(Q)
